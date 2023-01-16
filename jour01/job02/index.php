@@ -5,15 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job01-jour01</title>
-    <script>
-        // script permettant d'afficher un pop up
-        alert("Hello Javascript !");
-    </script>
+    <title>Job02-jour01</title>
+    <script src="script.js"></script>
 </head>
 
 <body>
-    <h1>Job01-jour01</h1>
+    <h1>Job02-jour01</h1>
 </body>
 
 </html>
