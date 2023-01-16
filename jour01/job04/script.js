@@ -1,7 +1,7 @@
-// script permettant de vérifier qu'une années est bisextile
+// script permettant de vérifier qu'une années est bissextile
 // déclaration de la variable
-// let year = document.getElementById("year");
-// let annees = parseInt(year);
+// let year = document.getElementById("year").innerText;
+// let années = parseInt(year, 10);
 let années = 2023;
 
 // déclaration de la fonction
