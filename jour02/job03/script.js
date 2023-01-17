@@ -16,8 +16,5 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // écouteur d'événement
-  btn.addEventListener("click", () => {
-    // affichage de la valeur de l'élément
-    addone();
-  });
+  btn.addEventListener("click", addone());
 });
