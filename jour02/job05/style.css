@@ -1,0 +1,19 @@
+body {
+  min-height: 4096px;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  min-height: 100px;
+  bottom: 0;
+  background-color: rgb(226, 0, 0);
+  transition: background-color 0.5s;
+}
+
+footer p {
+  font-size: 20px;
+}

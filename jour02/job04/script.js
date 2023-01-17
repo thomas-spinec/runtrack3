@@ -6,18 +6,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // fonction d'ajout de la lettre
   function addkey(event) {
-    let add = event.key;
-    textarea.value = textarea.value + add;
+    let add = event.key.length;
+    let result = add > 0 && add < 2 ? event.key : "";
+    textarea.value = textarea.value + result;
   }
   document.addEventListener("keydown", (event) => addkey(event));
 });
-
-// function addkey(key) {
-//   let add = String.fromCharCode(key.which);
-//   document.getElementById("keylogger").value =
-//     document.getElementById("keylogger").value + add;
-// }
-
-// onkeypress = function () {
-//   addkey(event);
-// };
