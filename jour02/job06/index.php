@@ -13,6 +13,7 @@
     <div id="before">
         <h1>Job06-jour02</h1>
         <h2>Code Konami </h2>
+        <a href="https://fr.wikipedia.org/wiki/Code_Konami">Lien pour le code</a>
     </div>
 
 </body>
