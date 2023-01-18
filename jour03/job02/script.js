@@ -7,7 +7,9 @@ jQuery(document).ready(function ($) {
     $("#rangees")
       .empty()
       .css({ width: "900px", height: "399px", border: "1px solid black" });
-    $("#melangees").empty().css({ width: "900px", height: "399px" });
+    $("#melangees")
+      .empty()
+      .css({ cursor: "pointer", width: "900px", height: "399px" });
 
     // remplissage de la rangee mélangée avec les img dans l'ordre
     for (let i = 1; i <= 6; i++) {
