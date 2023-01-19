@@ -61,12 +61,21 @@ document.addEventListener("DOMContentLoaded", function () {
         const table = document.querySelector("tbody");
         table.innerHTML = "";
         // si aucun pokemon ne correspond
-        if (value.length === 0) {
+        if (critID === "" && critName === "" && critType === "") {
+          table.innerHTML = `
+                <tr>
+                <td colspan="11">Il y a trop de pokemon a afficher. Veuillez renseigner au moins un critère</td>
+                </tr>
+                `;
+        }
+        // si rien n'est rentrée dans le formulaire
+        else if (value.length === 0) {
           table.innerHTML = `
             <tr>
             <td colspan="11">Aucun pokemon ne correspond à vos critères</td>
             </tr>
             `;
+          // si un pokemon correspond
         } else {
           value.forEach((pokemon) => {
             //   let base = JSON.stringify(pokemon.base);
