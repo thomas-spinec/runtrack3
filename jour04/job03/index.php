@@ -72,7 +72,7 @@
                 <tr>
                     <th colspan="3">Pokemon</th>
                     <th colspan="2">Type(s)</th>
-                    <th colspan="6">Base</th>
+                    <th colspan="6">Caractéristiques</th>
                 </tr>
                 <tr>
                     <th>ID</th>
