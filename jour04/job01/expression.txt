@@ -1,1 +1,1 @@
-C'est pas piqué des hannetons
+C'est pas piqué des <b>hannetons</b>
