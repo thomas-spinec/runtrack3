@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 90%;
+  height: 90vh;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+}
+
+#boutons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#boutons button {
+  width: 100px;
+  height: 50px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#boutons button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Différents formulaire */
+/* inscription */
+
+#form-insc {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  background-color: aquamarine;
+}
+
+#form-insc div {
+  display: flex;
+  flex-flow: column;
+  width: 40%;
+  height: 110px;
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.error {
+  color: red;
+}
+
+#form-insc button {
+  width: 10%;
+  font-size: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  cursor: pointer;
+}
+
+/* Connexion */
+
+#form-conn {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  background-color: rgb(0, 202, 185);
+}
+
+#form-conn div {
+  display: flex;
+  flex-flow: column;
+  width: 40%;
+  height: 110px;
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#form-conn button {
+  width: 10%;
+  font-size: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  cursor: pointer;
+}
+
+/* User */
+#user {
+  text-align: center;
+  color: rgb(213, 165, 105);
+}

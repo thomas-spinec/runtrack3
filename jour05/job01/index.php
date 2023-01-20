@@ -6,21 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job01-jour05</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 
 <body>
-    <h1>Job01-jour05</h1>
-    <h2>Fetch-Module de connexion</h2>
-    <button id="inscription">Inscription</button>
-    <button id="connexion">Connexion</button>
+    <div id="container">
+        <h1>Job01-jour05</h1>
+        <h2>Fetch-Module de connexion</h2>
+        <div id="boutons">
+            <button id="inscription">Inscription</button>
+            <button id="connexion">Connexion</button>
+        </div>
 
-    <div id="content">
+        <div id="content">
 
-    </div>
+        </div>
 
-    <div id="message">
+        <div id="message">
 
+        </div>
     </div>
 
 

@@ -26,4 +26,4 @@ $conn = null;
 
 ?>
 
-<h1>Bonjour <?= $result["prenom"] ?></h1>
+<h1 id="user">Bonjour <?= $result["prenom"] ?></h1>
