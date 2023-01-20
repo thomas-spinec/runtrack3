@@ -19,6 +19,10 @@
 
     </div>
 
+    <div id="message">
+
+    </div>
+
 
 
     <!--<script src="../../jquery-3.6.3.min.js"></script> mieux de mettre ces liens ici d'après le dernier lien du sujet -->
