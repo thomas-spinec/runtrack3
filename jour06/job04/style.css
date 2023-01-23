@@ -1,0 +1,105 @@
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+section {
+  background-color: #88c1d0;
+  width: 350px;
+  height: 150px;
+  margin: 3%;
+}
+
+@media (max-width: 1599px) and (min-width: 768px) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  section {
+    background-color: #88c1d0;
+    width: 40%;
+    height: 150px;
+    margin: 3%;
+  }
+}
+
+@media (max-width: 767px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section {
+    background-color: #88c1d0;
+    width: 90%;
+    height: 150px;
+    margin: 3%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* CSS PARTIE HEADER */
+
+header {
+  height: 10vh;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 2%;
+}
+
+li {
+  margin-left: 3%;
+}
+
+@media (max-width: 767px) {
+  nav {
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    left: 5%;
+    z-index: 1;
+    padding: 0 5%;
+
+    transition: transform 0.6s ease-in-out;
+    -webkit-transition: transform 0.6s ease-in-out;
+    transform: translateX(100%);
+    -webkit-transform: translateX(110%);
+  }
+
+  nav.open {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    /* top: 15%; */
+  }
+
+  nav ul {
+    position: absolute;
+    top: 0%;
+    background-color: #1dc439;
+
+    transform: translateY(50%);
+  }
+
+  .burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+
+  #openBtn {
+    display: block;
+    width: 35px;
+    height: 30px;
+    /* background-color: black; */
+    margin: 6px 0;
+  }
+}
