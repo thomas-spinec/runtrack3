@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Job02-jour07</title>
+    <title>Job03-jour07</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
@@ -20,7 +20,7 @@
             </ul>
         </nav>
     </header>
-    <h1>Job02-jour07</h1>
+    <h1>Job03-jour07</h1>
     <section class="section">
         <form action="">
             <label for="nom">Nom :</label>
@@ -53,8 +53,8 @@
         </form>
     </section>
 
-    <footer>
-        <ul>
+    <footer class="bg-orange-700 text-green-300 text-xl min-h-[70px] absolute inset-x-0 bottom-0 ">
+        <ul class="flex justify-evenly items-center pt-5">
             <li><a href="index.php">Accueil</a></li>
             <li><a href="index.php">Inscription</a></li>
             <li><a href="index.php">Connexion</a></li>
