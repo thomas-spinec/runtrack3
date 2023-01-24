@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job01-jour07</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.php">Accueil</a></li>
+                <li><a href="index.php">Inscription</a></li>
+                <li><a href="index.php">Connexion</a></li>
+                <li><a href="index.php">Rechercher</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Job01-jour07</h1>
+    <section class="section">
+        <form action="">
+            <label for="nom">Nom :</label>
+            <input type="text" name="nom" id="nom" />
+            <label for="prenom">Prénom :</label>
+            <input type="text" name="prenom" id="prenom" />
+            <label for="sexe">Sexe :</label>
+            <input type="radio" name="sexe" id="sexe" value="Homme" />
+            <label for="sexe">Homme</label>
+            <input type="radio" name="sexe" id="sexe" value="Femme" />
+            <label for="sexe">Femme</label>
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email" />
+            <label for="password">Password :</label>
+            <input type="password" name="password" id="password" />
+            <label for="password">Confirmation :</label>
+            <input type="password" name="password" id="password" />
+            <label for="passions">Passions :</label>
+            <input type="checkbox" name="passions" id="passions" value="Informatique" />
+            <label for="passions">Informatique</label>
+            <input type="checkbox" name="passions" id="passions" value="Voyages" />
+            <label for="passions">Voyages</label>
+            <input type="checkbox" name="passions" id="passions" value="Lecture" />
+            <label for="passions">Lecture</label>
+            <input type="checkbox" name="passions" id="passions" value="Sport" />
+            <label for="passions">Sport</label>
+            <input type="checkbox" name="passions" id="passions" value="Autre" />
+            <label for="passions">Autre</label>
+            <input type="submit" value="Valider">
+        </form>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="index.php">Accueil</a></li>
+            <li><a href="index.php">Inscription</a></li>
+            <li><a href="index.php">Connexion</a></li>
+            <li><a href="index.php">Rechercher</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
