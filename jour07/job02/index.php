@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Job01-jour07</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
+    <header class="bg-green-300 text-orange-700 text-xl min-h-[80px] ">
+        <nav class="pt-6">
+            <ul class="flex justify-evenly items-center">
                 <li><a href="index.php">Accueil</a></li>
                 <li><a href="index.php">Inscription</a></li>
                 <li><a href="index.php">Connexion</a></li>
